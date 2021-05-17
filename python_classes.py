@@ -5,7 +5,7 @@ class Invoice:
 
 
 inv_one = Invoice()
-print(inv_one.greeting)
+print(inv_one.greeting())
 
 inv_two = Invoice()
-print(inv_two.greeting)
+print(inv_two.greeting())

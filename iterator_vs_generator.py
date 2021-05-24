@@ -8,7 +8,7 @@ class InfiniteLineup:
 
         while True:
             if idx < lineup_max:
-                yield self.players[idx]
+                yield self.players[idx] #yielding to the generator
             else:
                 idx = 0
                 yield self.players[idx]
